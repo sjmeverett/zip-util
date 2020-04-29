@@ -1,0 +1,31 @@
+{
+  "name": "@sjmeverett/zip-util",
+  "version": "1.0.0",
+  "author": "Stewart Everett (https://sjmeverett.uk)",
+  "scripts": {
+    "build": "tsc"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "@types/archiver": "^3.1.0",
+    "archiver": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^13.7.0",
+    "typescript": "^3.7.5"
+  },
+  "description": "Thin wrapper around [archiver](https://npmjs.com/package/archiver) to output zip files, optionally with the file hash in the filename.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjmeverett/zip-util.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sjmeverett/zip-util/issues"
+  },
+  "homepage": "https://github.com/sjmeverett/zip-util#readme"
+}
